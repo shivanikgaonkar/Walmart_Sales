@@ -95,16 +95,6 @@ All work is documented and organized in this repository:
 
 ---
 
-##  Project Structure
-
-├── data/            # Raw + cleaned datasets
-├── sql_queries/     # SQL scripts
-├── notebooks/       # Jupyter notebooks
-├── README.md        # Project documentation
-├── requirements.txt # Required Python libraries
-└── main.py          # Main ETL + analysis script
-
----
 
 ## Results & Insights
 - **Sales Insights** → Found top categories, branches with highest sales, and preferred payment methods.  
