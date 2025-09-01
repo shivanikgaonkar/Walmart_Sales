@@ -22,16 +22,17 @@ I built it from scratch to practice **end-to-end data handling, cleaning, databa
    - Placed the token inside the local `.kaggle/` folder for authentication.  
 
 ## 3. Dataset Download
-   ```bash
-   - kaggle datasets download -d najir0123/walmart-10k-sales-datasets
-   - Storage: Saved in /data folder for easy access
+
+kaggle datasets download -d najir0123/walmart-10k-sales-datasets
+Storage: Saved in /data folder for easy access
+
 
 ---
 
 ## 4. Install Required Libraries
 Install the necessary Python libraries:
 
-```bash
+
 pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 
 
@@ -39,12 +40,12 @@ pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
 ## 5. Explore the Data
 Performed initial data exploration using:
 
-```python
+python
 df.info()
 df.describe()
 df.head()
 
-   - This helped me understand column names, datatypes, and spot missing values.
+ This helped me understand column names, datatypes, and spot missing values.
 
 ---
 
