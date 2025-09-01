@@ -23,7 +23,7 @@ I built it from scratch to practice **end-to-end data handling, cleaning, databa
 
 ## 3. Dataset Download
 
-kaggle datasets download -d najir0123/walmart-10k-sales-datasets
+kaggle datasets download : https://www.kaggle.com/najir0123/walmart-10k-sales-datasets
 Storage: Saved in /data folder for easy access
 
 
@@ -95,13 +95,15 @@ All work is documented and organized in this repository:
 
 ---
 
-Project Structure
+##  Project Structure
+
 ├── data/            # Raw + cleaned datasets
 ├── sql_queries/     # SQL scripts
 ├── notebooks/       # Jupyter notebooks
 ├── README.md        # Project documentation
 ├── requirements.txt # Required Python libraries
 └── main.py          # Main ETL + analysis script
+
 ---
 
 ## Results & Insights
